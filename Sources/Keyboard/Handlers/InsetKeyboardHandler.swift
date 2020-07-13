@@ -5,6 +5,8 @@ public class InsetKeyboardHandler: KeyboardHandler {
     private var originalContentInset = UIEdgeInsets.zero
     private var originalScrollIndicatorInsets = UIEdgeInsets.zero
 
+    public init() {}
+
     public convenience init(scrollView: UIScrollView) {
         self.init()
         self.scrollView = scrollView

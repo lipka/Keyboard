@@ -4,6 +4,8 @@ public class ConstraintKeyboardHandler: KeyboardHandler {
     public var constraint: NSLayoutConstraint?
     public weak var view: UIView?
 
+    public init() {}
+
     public convenience init(constraint: NSLayoutConstraint, view: UIView) {
         self.init()
         self.constraint = constraint
